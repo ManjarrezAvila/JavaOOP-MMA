@@ -1,3 +1,5 @@
+package model;
+
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -7,7 +9,7 @@ public class Doctor extends User {
 
     Doctor(String name, String email){
         super(name,email);
-        System.out.println("Doctor's Name: " + name);
+        System.out.println("model.Doctor's Name: " + name);
         this.speciality = speciality;
     }
 
@@ -28,7 +30,10 @@ public class Doctor extends User {
         return availableAppointments;
     }
 
-
+    @Override
+    public String toString() {
+        return super.toString() + "\nSpeciality: " + speciality + "\nAvailable: " + availableAppointments.toString();
+    }
 
     public static class AvailableAppointment{
         private int id;
@@ -62,6 +67,11 @@ public class Doctor extends User {
 
         public void setTime(String time) {
             this.time = time;
+        }
+
+        @Override
+        public String toString() {
+            return "Available Appointments \nDate: " +date+ "\nTime: " + time;
         }
     }
 

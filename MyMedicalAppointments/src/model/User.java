@@ -1,4 +1,6 @@
-public class User {
+package model;
+
+public abstract class User {
     private int id;
     private String name;
     private String email;
@@ -52,5 +54,11 @@ public class User {
         }else if(phoneNumber.length() == 8){
             this.phoneNumber = phoneNumber;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "model.User: " + name + ", Email: "+email+
+                "\nAddreess: "+address+". Phone: "+phoneNumber;
     }
 }
