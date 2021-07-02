@@ -1,4 +1,4 @@
-# # JAVA Academy: Java OOP Object-Oriented Programming
+# JAVA Academy: Java OOP Object-Oriented Programming
 
 ## Introduction
 
@@ -13,9 +13,8 @@ In this course we developed a hospital appointment system on java using the four
 
 ## Dependencies
 
-1. Terminal of your choice
-2. [IDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot) version 11
-3. [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/download/#section=windows)
+1. [IDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot) version 11
+2. [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/download/#section=windows)
 
 ## Instructions
 
