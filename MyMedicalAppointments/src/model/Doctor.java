@@ -7,7 +7,7 @@ public class Doctor extends User {
     private String speciality;
 
 
-    Doctor(String name, String email){
+    public Doctor(String name, String email){
         super(name,email);
         System.out.println("model.Doctor's Name: " + name);
         this.speciality = speciality;
