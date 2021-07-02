@@ -50,7 +50,7 @@ public abstract class User {
 
     public void setPhoneNumber(String phoneNumber) {
         if (phoneNumber.length() > 8){
-            System.out.println("The phone number must be 8 digits maximum");
+            System.out.println("El número telefónico debe ser de 8 dígitos máximo");
         }else if(phoneNumber.length() == 8){
             this.phoneNumber = phoneNumber;
         }
@@ -61,4 +61,7 @@ public abstract class User {
         return "model.User: " + name + ", Email: "+email+
                 "\nAddreess: "+address+". Phone: "+phoneNumber;
     }
+
+    public abstract void showDataUser();
+
 }
